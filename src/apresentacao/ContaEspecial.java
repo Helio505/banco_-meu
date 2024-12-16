@@ -1,19 +1,18 @@
 package apresentacao;
 
-
 abstract public class ContaEspecial extends Conta {
-  
+
   protected double limite;
-  
-  protected void setLimite ( double value  ) {
+
+  protected void setLimite(double value) {
     limite = value;
   }
-  
-  protected double getLimite () {
+
+  protected double getLimite() {
     return limite;
   }
-  
-  public void creditar ( double valor) {
+
+  public void creditar(double valor) {
     saldo = saldo + valor;
   }
 }

@@ -1,29 +1,30 @@
 package apresentacao;
 
-abstract public class Conta  implements Comparable<Conta>{
-  
-  // 
-  protected String numero;
-  // 
-  protected double saldo;
+abstract public class Conta implements Comparable<Conta> {
+
   //
-  protected String getNumero (  ) {
+  protected String numero;
+  //
+  protected double saldo;
+
+  //
+  protected String getNumero() {
     return numero;
   }
-  
-  protected void setNumero ( String value  ) {
+
+  protected void setNumero(String value) {
     numero = value;
   }
-  
-  protected double getSaldo (  ) {
+
+  protected double getSaldo() {
     return saldo;
   }
-  
-  protected void setSaldo ( double value  ) {
+
+  protected void setSaldo(double value) {
     saldo = value;
   }
-  
-  abstract void creditar (double valor);
-  
-  abstract void debitar (double valor);
+
+  abstract void creditar(double valor);
+
+  abstract void debitar(double valor);
 }
