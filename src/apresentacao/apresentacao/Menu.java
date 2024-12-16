@@ -52,5 +52,6 @@ public class Menu {
                     System.out.println("Opção inválida!");
             }
         } while (opcao != 0);
+        sc.close();
     }
 }
