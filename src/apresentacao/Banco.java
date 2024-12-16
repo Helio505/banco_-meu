@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.TreeSet;
 import java.util.Iterator;
 import java.util.LinkedList;
+import apresentacao.AcessoADado;
 
 public class Banco {
 
