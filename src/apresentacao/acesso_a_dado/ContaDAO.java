@@ -1,4 +1,4 @@
-package apresentacao;
+package apresentacao.acesso_a_dado;
 
 import apresentacao.negocio.Conta;
 import java.sql.*;
