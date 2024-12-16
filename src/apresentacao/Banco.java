@@ -220,5 +220,10 @@ public class Banco {
 
 		banco.ListaContasXML();
 
+		// Remove a conta with numero "6578-9"
+		banco.RemoveConta("6578-9");
+
+		// List accounts after removal
+		banco.ListaContas();
 	}
 }
